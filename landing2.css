@@ -1,0 +1,53 @@
+
+body {
+    background-color: rgb(213, 250, 213);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+}
+
+.cards { 
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgba(156, 252, 169, 0.933);
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-inline: 30px;
+    padding: 50px;
+    
+}
+
+.btn {
+    color: rgb(29, 87, 29);
+    padding: 12px 32px;
+    background: rgb(79, 238, 79);
+    margin: auto;
+    display: block;
+    border: none;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+.btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 1s all;
+    color: blue;
+
+}
+img {
+    margin: auto;
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(17, 17, 17)
+}
+p {
+    text-align: justify;
+    color: #818181;
+}
